@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: lightblue;
+    font-family: "Comic Sans MS";
+  }
+  
+  .menu {
+    float: left;
+    width: 20%;
+    text-align: center;
+  }
+  
+  .menu a {
+    background-color: #e5e5e5;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black;
+  }
+  
+  .main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+  }
+  
+  .right {
+    float: left;
+    width: 20%;
+    margin-top: 7px;
+  }
+
+  .gifh {
+    width: 230px;
+    height: 300px;
+    align-content: center;
+  }
+
+  .kid {
+    width: 280px;
+    height: 500px;
+  }
+
+  .gift1 {
+    width: 800px;
+    height: 300px;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
